@@ -1,14 +1,7 @@
-class A {
-    int data =40;
-    void msg(){
-        System.out.println("hello java");
-    }
-}
-public class Simple {
-    public static void main(String args[]){
-
-        A obj = new A();
-        System.out.println(obj.data);
-        obj.msg();
-    }
+package pac;
+//  this program is  Default access modifier related to pac2 A class
+ public class Simple {
+    public  void msg(){
+         System.out.println("Hello world");
+     }
 }
